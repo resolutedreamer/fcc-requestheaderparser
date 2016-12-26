@@ -1,0 +1,22 @@
+{
+  "name": "fcc-requestheaderparser",
+  "version": "1.0.0",
+  "description": "Free Code Camp Request Header Microservice",
+  "main": "server.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/resolutedreamer/fcc-requestheaderparser.git"
+  },
+  "keywords": [
+    "fcc"
+  ],
+  "author": "Anthony Nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/resolutedreamer/fcc-requestheaderparser/issues"
+  },
+  "homepage": "https://github.com/resolutedreamer/fcc-requestheaderparser#readme"
+}
