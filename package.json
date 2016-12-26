@@ -4,6 +4,7 @@
   "description": "Free Code Camp Request Header Microservice",
   "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "node test.js"
   },
   "repository": {
