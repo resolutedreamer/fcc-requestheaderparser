@@ -1,5 +1,22 @@
+// server.js
+// where your node app starts
+
+// init project
 var express = require('express');
 var app = express();
+
+// http://expressjs.com/en/starter/static-files.html
+app.use(express.static('public'));
+
+// http://expressjs.com/en/starter/basic-routing.html
+app.get("/", function (request, response) {
+  response.sendFile(__dirname + '/views/index.html');
+});
+
+// listen for requests :)
+var listener = app.listen(process.env.PORT, function () {
+  console.log('Your app is listening on port ' + listener.address().port);
+});
 
 app.get("/api/whoami", function (req, res) {
   var headers = req.headers;
@@ -18,6 +35,4 @@ app.get("/api/whoami", function (req, res) {
   res.json(result);
 });
 
-app.listen(8080, function () {
-  console.log('Example app listening on port 8080!');
-});
+
