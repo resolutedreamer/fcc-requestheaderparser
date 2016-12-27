@@ -1,7 +1,7 @@
 {
-  "name": "fcc-requestheaderparser",
+  "name": "resolutedreamer-requestheaderparser",
   "version": "1.0.0",
-  "description": "Free Code Camp Request Header Microservice",
+  "description": "Free Code Camp - Request Header Parser Microservice, Implemented by Anthony C. Nguyen",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
@@ -9,17 +9,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/resolutedreamer/fcc-requestheaderparser.git"
+    "url": "git+https://github.com/resolutedreamer/fcc-requestheaderparsermicroservice.git"
   },
   "keywords": [
-    "fcc"
+    "fcc",
+    "requestheaderparser"
   ],
-  "author": "Anthony Nguyen",
+  "author": "Anthony C. Nguyen",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/resolutedreamer/fcc-requestheaderparser/issues"
+    "url": "https://github.com/resolutedreamer/fcc-requestheaderparsermicroservice/issues"
   },
-  "homepage": "https://github.com/resolutedreamer/fcc-requestheaderparser#readme",
+  "homepage": "https://github.com/resolutedreamer/fcc-requestheaderparsermicroservice#readme",
   "dependencies": {
     "express": "^4.14.0"
   }
