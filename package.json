@@ -1,6 +1,6 @@
 {
   "name": "resolutedreamer-requestheaderparser",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Free Code Camp - Request Header Parser Microservice, Implemented by Anthony C. Nguyen",
   "main": "server.js",
   "scripts": {
